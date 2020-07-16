@@ -39,7 +39,7 @@ For TypeScript projects add to `tsconfig.json` file:
 import { BaseModel } from '@ioc:Adonis/Lucid/Orm'
 import { withUuid } from '@ioc:Hipsjs/Lucid/Uuid'
 
-@withUuid({ column: 'uid', version: 'v1' })
+@withUuid({ column: 'uid', version: 'v4' })
 export default class User extends BaseModel {
   public uid: string
 }
