@@ -1,6 +1,6 @@
 {
   "name": "@hipsjs/adonis-lucid-uuid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Addon for adding UUID to AdonisJS Lucid ORM",
   "main": "./build/providers/LucidUuidProvider.js",
   "files": [
@@ -16,7 +16,7 @@
     "pretest": "npm run lint",
     "test": "node japaFile.js",
     "clean": "rm -rf build",
-    "compile": "npm run lint && npm run clean && tsc && npm run copy:files",
+    "compile": "npm run lint && npm run clean && tsc",
     "copy:files": "copyfiles \"templates/*.txt\" build",
     "build": "npm run compile",
     "prepublishOnly": "npm run build"

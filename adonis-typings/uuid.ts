@@ -22,7 +22,7 @@ declare module '@ioc:Hipsjs/Lucid/Uuid' {
   }
 
   interface UuidDecoratorContract {
-    (options: LucidUuidContract): (model: LucidModel) => void;
+    (options?: LucidUuidContract): (model: LucidModel) => void;
   }
 
   export const withUuid: UuidDecoratorContract

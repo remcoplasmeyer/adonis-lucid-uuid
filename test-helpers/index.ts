@@ -14,7 +14,7 @@ import {Adapter} from '@adonisjs/lucid/build/src/Orm/Adapter'
 import {SqliteConfig} from '@ioc:Adonis/Lucid/Database'
 import {setupDB} from './mocks/ioc'
 import {setupUsersTable} from './db-helpers/setupUsers'
-import {setupOrganisationsTable} from "./db-helpers/setupOrganisations";
+import {setupOrganisationsTable} from './db-helpers/setupOrganisations'
 
 const fs = new Filesystem(join(__dirname, '__app'))
 
