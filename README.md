@@ -10,10 +10,10 @@ Make sure to install it using `npm` or `yarn`.
 
 ```bash
 # npm
-npm i --save adonis-lucid-uuid
+npm i --save @hipsjs/adonis-lucid-uuid
 
 # yarn
-yarn add adonis-lucid-uuid@alpha
+yarn add @hipsjs/adonis-lucid-uuid
 ```
 
 Make sure to register the provider inside `.adonisrc.json` file.
